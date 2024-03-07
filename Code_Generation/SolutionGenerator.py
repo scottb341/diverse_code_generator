@@ -18,13 +18,9 @@ from tenacity import (
     wait_random_exponential,
 )  # for exponential backoff
  
-
 T = TypeVar('T')
 
-
 models = {"gpt-3.5-turbo", "gpt-3.5-turbo-0301","text-davinci-003","text-davinci-002", "code-davinci-002"}
-
-
 
 # utils
 
@@ -383,9 +379,6 @@ class Session:
 
     def get_model(self)->LLM_Model:
         return self.model
-
-
-
 
 
 

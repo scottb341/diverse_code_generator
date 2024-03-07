@@ -66,24 +66,16 @@ def linear_next(text : str, extraction_test, index : int) -> str:
         DESCRIPTION.
 
     """
-    
-    
     curr = (index,index)
-    
     i = index
-    
     while i < len(text):
         try:
             extraction_test(text[index:i])
             curr = (index,i)
         except:
             pass
-        
         i += 1
-
     return curr
-
-
 
 def signal_handler(signum, frame):
         print("timed out!")
@@ -734,6 +726,7 @@ def get_problems():
             prob_dic[p] = file.read()
     return prob_dic
 
+
 def ex(input_string, problem, prob_dic):
     """
     Split a string by a specified delimiter.
@@ -745,7 +738,6 @@ def ex(input_string, problem, prob_dic):
     Returns:
     - list: A list of substrings obtained by splitting the input string.
     """
-    length_diff = len(input_string)-len(prob_dic[problem])
     if prob_dic[problem] in input_string:
         return []
     # Append the remaining part of the string after the last delimiter

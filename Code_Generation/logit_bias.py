@@ -3,7 +3,7 @@
 """
 Created on Wed Aug  2 21:30:23 2023
 
-@author: ningnong
+@author: Scott Blyth
 """
 
 import tiktoken
