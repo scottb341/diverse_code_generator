@@ -10,7 +10,7 @@ from abc import ABC,abstractmethod
 from typing import List,Callable
 from SolutionGenerator import Session
 from CodeTransformer import Transformer
-from logit_bias import Bias
+from logit_bias import Bias,token_counts,get_top_k,compute_biases,union_all
 
 
 class CodeGenerator(ABC): 
@@ -500,10 +500,5 @@ def negative_bias(bias : float, token_pool_size: int):
             return description
     return Negative_Bias
     
-
-
-
-
-
 
 
