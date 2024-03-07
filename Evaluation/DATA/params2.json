@@ -1,0 +1,1527 @@
+{
+  "FindMin": {
+    "sample_2": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "dedup": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_0": {
+    "sample_1": {
+      "length": 4,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_1": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_10": {
+    "sample_1": {
+      "length": 8,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_100": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_101": {},
+  "human_eval_102": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_103": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_104": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_105": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_106": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_107": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_108": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_109": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_11": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_110": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_111": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_112": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_113": {},
+  "human_eval_114": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_115": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_116": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_117": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_118": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_119": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_12": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_120": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_121": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_122": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_123": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_124": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_125": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_126": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_127": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_128": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_129": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_13": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_130": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_131": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_132": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_133": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_134": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_135": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_136": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_137": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_138": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_139": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_14": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_140": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_141": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_142": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_143": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_144": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_145": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_146": {},
+  "human_eval_147": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_148": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_149": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_15": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_150": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_151": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_152": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_153": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_154": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_155": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_156": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_157": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_158": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_159": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_16": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_160": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_161": {},
+  "human_eval_162": {},
+  "human_eval_163": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_17": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_18": {},
+  "human_eval_19": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_2": {
+    "sample_0": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_20": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_21": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_22": {},
+  "human_eval_23": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_24": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_25": {
+    "sample_1": {
+      "length": 0,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_26": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_27": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_28": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_29": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_3": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_30": {
+    "sample_1": {
+      "length": 0,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_31": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_32": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_33": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_34": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_35": {},
+  "human_eval_36": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_37": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_38": {
+    "sample_1": {
+      "length": 3,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_39": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_4": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_40": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_41": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_42": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_43": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_44": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_45": {},
+  "human_eval_46": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_47": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_48": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_49": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_5": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_50": {
+    "sample_1": {
+      "length": 10,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_51": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_52": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_53": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_54": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_55": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_56": {},
+  "human_eval_57": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_58": {},
+  "human_eval_59": {},
+  "human_eval_6": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_60": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_61": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_62": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_63": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_64": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_65": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_66": {},
+  "human_eval_67": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_68": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_69": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_7": {},
+  "human_eval_70": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_71": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_72": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_73": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_74": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_75": {
+    "sample_1": {
+      "length": 9,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_76": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_77": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_78": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_79": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_8": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_80": {},
+  "human_eval_81": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_82": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_83": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_84": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_85": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_86": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_87": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_88": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_89": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_9": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_90": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_91": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_92": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_93": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_94": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_95": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_96": {
+    "sample_1": {
+      "length": 6,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_97": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_98": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  },
+  "human_eval_99": {
+    "sample_1": {
+      "length": 5,
+      "Generator": "Few-shot 1-Include no helper functions",
+      "LLM_Model": "gpt-3.5-turbo",
+      "description": {
+        "model": "gpt-3.5-turbo"
+      }
+    }
+  }
+}

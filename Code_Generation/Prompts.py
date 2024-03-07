@@ -17,7 +17,6 @@ class CodeGenerator(ABC):
     """ 
     class for generating code using LLMs
     """
-    
     def __init__(self, prob_description: str):
         self.code_snippets = []
         self.description = prob_description
