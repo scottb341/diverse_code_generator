@@ -12,11 +12,6 @@ from typing import List
 import signal
 import re
 import os
-import json
-import bisect
-import pyperclip
-from copy import deepcopy
-
 
 def syntax_correct(text):
     try: 
@@ -669,7 +664,6 @@ def find_attempted_solution(text):
     # remove any def with tabs preceding def  
     match_funcs = [i for i in match_funcs if i-1 >= 0 and text[i-1] != '\t' and text[i-1] != ' ']
     
-    lst = [0 for _ in range(6)]
     index = 0
     
     start_tokens = [match_funcs, occ_import, occ_from]

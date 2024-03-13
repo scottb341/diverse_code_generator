@@ -29,11 +29,8 @@ CODE_FILE_DIR = "snippets_folder.txt"
 
 with open("snippets_folder.txt") as file:
     CODE_FILE_DIR = file.readline() 
-
-        
-        
+    
 #######
-
 
 problem_list = []
 
@@ -44,58 +41,36 @@ with open("problem_list.txt") as file:
 # useful functions
 
 def set_generate_all(): 
-    
     all_files = os.listdir('problems')
-    
     all_files.remove('.DS_Store')
-    
     all_files = sorted(all_files)
-    
     with open("problem_list.txt", "w") as file:
-        
         for dir in all_files:
-            
             file.write(f"problems/{dir}\n")
-            
-    print(f"{len(all_files)} set to generate")
-            
+    print(f"{len(all_files)} set to generate")  
     print("done!")
     
     
 def get_shared_keys(d1,d2):
-    
     keys_d1 = set(d1.keys())
-    
     keys_d2 = set(d2.keys())
-    
     return keys_d2.intersection(keys_d1)
 
 def UnionDict(d1,d2):
-    
     res = {}
-
     shared_keys = get_shared_keys(d1,d2)
-    
     for key in shared_keys:
-        
-        
         d1_val = d1[key]
         d2_val = d2[key]
-        
         if isinstance(d1_val, dict) and isinstance(d2_val, dict):
-            
             res[key] = UnionDict(d1_val,d2_val)
-            
         else:
-            
             if d1_val == d2_val:
                 res[key] = d1_val
             else:
                 raise Exception("Can not unionise")
                 
     # s1, set of keys in d1 but not d2
-
-    
     for key in d1:
         if key not in shared_keys:
             res[key] = d1[key]

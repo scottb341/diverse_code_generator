@@ -43,7 +43,6 @@ def flatten(code):
 
 @retry(wait=wait_random_exponential(min=10, max=30), stop=stop_after_attempt(20))
 def completion_with_backoff(**kwargs):
-    print("call attempt")
     return openai.ChatCompletion.create(**kwargs)
 
 
@@ -52,10 +51,8 @@ class LLM_Model(ABC):
     A large language model that can be prompted to, and it gives reponses in the form of a string. 
     It can also return code snippets as part of it's response. 
     """
-    
     def __init__(self, name):
         self.name = name 
-    
     @abstractmethod 
     def GetResponse(self, prompt : str)->str:
         """
@@ -163,8 +160,6 @@ class Completion(LLM_Model):
         
     def GetReponseAux(self, model : str, prompt : str, temp : float, max_tokens : int):
         """
-        
-
         Parameters
         ----------
         model : TYPE
