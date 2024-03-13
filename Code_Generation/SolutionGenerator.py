@@ -19,9 +19,7 @@ from tenacity import (
 )  # for exponential backoff
  
 T = TypeVar('T')
-
 models = {"gpt-3.5-turbo", "gpt-3.5-turbo-0301","text-davinci-003","text-davinci-002", "code-davinci-002"}
-
 # utils
 
 def flatten(code): 
@@ -130,7 +128,6 @@ class Completion(LLM_Model):
     Note that this is not for models such as GPT-3.5-turbo. This is for models
     that allow changing settings such as the temperature and max tokens.
     """
-    
     def __init__(self, model, temp, max_tokens, top_p=1,frequency_penalty=0):
         super().__init__(model)
         self.model = model
@@ -139,11 +136,9 @@ class Completion(LLM_Model):
         self.top_p = top_p
         self.frequency_penalty = frequency_penalty
         
-    
     def GetResponse(self, prompt : str)->str:
         """
         method for prompting the LLM. Requires an auth key to be stored in the envrionment "OPENAI_KEY"
-
         Parameters
         ----------
         prompt : str
@@ -153,7 +148,6 @@ class Completion(LLM_Model):
         -------
         str
             the response.
-
         """
         response = self.GetReponseAux(self.model, prompt, self.temp, self.max_tokens)
         return self.GetMessage(response)
@@ -179,7 +173,7 @@ class Completion(LLM_Model):
         """
         if openai.api_key is None:
             openai.api_key = os.environ["OPENAI_KEY"] 
-        time.sleep(0.5)
+        time.sleep(0.5) # sleep
         return openai.Completion.create(model=model, prompt=prompt, temperature=temp,
                                         top_p = self.top_p,max_tokens=max_tokens,
                                         logit_bias = self.logit_bias,
@@ -221,9 +215,10 @@ class Completion(LLM_Model):
         return sols
     
 class GPT_Model(LLM_Model):
-    def __init__(self, model, max_tokens, temperature, top_p, logit_bias={},
+    def __init__(self, api_key, model, max_tokens, temperature, top_p, logit_bias={},
                  frequency_penalty=0, presence_penalty=0):
         super().__init__(model)
+        self.api_key = api_key
         self.model = model
         self.max_tokens = max_tokens
         self.messages = []
@@ -233,7 +228,7 @@ class GPT_Model(LLM_Model):
         self.frequency_penalty = frequency_penalty
         self.presence_penalty = presence_penalty
         self.total_tokens = 0
-          
+         
     def GetResponse(self, prompt)->str:
         """
         method for prompting the LLM. Requires an auth key to be stored in the envrionment "OPENAI_KEY"
@@ -248,20 +243,12 @@ class GPT_Model(LLM_Model):
         str
             the response.
     
-        """
-            
+        """ 
         # prompt message
-        
         if openai.api_key is None:
-            openai.api_key = os.environ["OPENAI_KEY"] 
-        
-        
+            openai.api_key = self.api_key
         prompt_msg = {"role" : "user", "content" : prompt}
-
-        
         full_msg = self.messages+[prompt_msg]
-        
-
         response = completion_with_backoff(model=self.model,
                         max_tokens=self.max_tokens, 
                         messages=full_msg,
@@ -270,32 +257,25 @@ class GPT_Model(LLM_Model):
                         logit_bias=self.logit_bias,
                         frequency_penalty=self.frequency_penalty,
                         presence_penalty = self.presence_penalty)
-        
         self.total_tokens += response["usage"]["total_tokens"]
         self.messages = []
         print("response given...")
         return self.GetMessage(response)
-        
     def add_message(self, msg):
         self.messages.append({"role" : "system", "content" : msg})
-
     def GetMessage(self, response):
         return response["choices"][0]["message"]["content"]
-        
     def GetDescription(self)->str:
         return {"model" : self.model, 'temperature' : self.temperature, 
                 'max_tokens' : self.max_tokens, 'top_p' : self.top_p,
                 "frequency_penalty" : self.frequency_penalty,
                 "presence_penalty" : self.presence_penalty}
-    
     def ExtractCode(self, text):
         # extracts code using the code extraction tools in CodeExtractor.py
         sols = extract_code(text) 
         return sols
-
     def update_logit_biases(self, logit_bias)->List:
         self.logit_bias = logit_bias
-
 
 class Session:
     """
@@ -361,17 +341,14 @@ class Session:
             DESCRIPTION.
 
         """
-        code = [self.extract_code(index) for index in range(len(self.GetHistory()))]
-                
+        code = [self.extract_code(index) for index in range(len(self.GetHistory()))]  
         return flatten(code)
-    
     def extract_code(self, index): 
         if index < len(self.code) and self.code[index] is not None:
             return self.code[index]
         prompt,response = self.GetHistory()[index]
         self.code.append(self.model.ExtractCode(response))
         return self.code[index]
-
     def get_model(self)->LLM_Model:
         return self.model
 

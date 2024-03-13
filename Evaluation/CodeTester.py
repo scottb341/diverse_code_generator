@@ -5,8 +5,6 @@ Created on Wed May  3 16:40:00 2023
 
 @author: Scott Blyth
 """
-
-
 from abc import ABC,abstractmethod
 from typing import TypeVar, Generic, List, Tuple
 import os
@@ -64,12 +62,11 @@ def test_program(program : str, a):
     
 # NOTE: do testing on a virtual machine!
 
-# human eval tester 
+# HumanEval tester 
 
 # https://stackoverflow.com/questions/366682/how-to-limit-execution-time-of-a-function-call  
 def signal_handler(signum, frame):
         raise Exception('time out!')
-
 
 
 class GuessTester(Tester):
@@ -343,7 +340,6 @@ def TestCode(out_file):
     
     with open(f"DATA/{out_file}.json", "w") as outfile:
         outfile.write(json_object)
-        
     print("Done!")
 
 def set_test_all(): 
