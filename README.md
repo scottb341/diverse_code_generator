@@ -25,9 +25,9 @@ solution_candidates = regen.Generate(session, number_of_solutions, OnlyAllow)
 ```
 
 Citation:
-```@article{blyth2024creative,
+@article{blyth2024creative,
   title={Creative and Correct: Requesting Diverse Code Solutions from AI Foundation Models},
   author={Blyth, Scott and Wagner, Markus and Treude, Christoph},
   journal={arXiv preprint arXiv:2403.13259},
   year={2024}
-}```
+}
