@@ -1,5 +1,5 @@
 # diverse_code_generator
-This is the repo for the paper at: [https://arxiv.org/abs/2403.13259]
+This is the repo for the paper at: https://arxiv.org/abs/2403.13259
 ## Install 
 
 ```pip install openai```
