@@ -1,5 +1,5 @@
 # diverse_code_generator
-
+This is the repo for the paper at: [https://arxiv.org/abs/2403.13259]
 ## Install 
 
 ```pip install openai```
@@ -23,11 +23,3 @@ regen = RegenPrompt("def find_min(lst):")
 # OnlyAllow removes test cases that the LLM may include
 solution_candidates = regen.Generate(session, number_of_solutions, OnlyAllow)
 ```
-
-Citation:
-@article{blyth2024creative,
-  title={Creative and Correct: Requesting Diverse Code Solutions from AI Foundation Models},
-  author={Blyth, Scott and Wagner, Markus and Treude, Christoph},
-  journal={arXiv preprint arXiv:2403.13259},
-  year={2024}
-}
