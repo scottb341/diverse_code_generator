@@ -9,6 +9,7 @@ Created on Tue Apr 25 20:13:34 2023
 import os
 from abc import ABC,abstractmethod 
 import openai
+from openai import OpenAI
 from CodeExtractor import extract_code
 from typing import TypeVar, List, Tuple
 import time
@@ -39,10 +40,11 @@ def flatten(code):
 
 
 
-@retry(wait=wait_random_exponential(min=10, max=30), stop=stop_after_attempt(20))
+@retry(wait=wait_random_exponential(min=10, max=30), stop=stop_after_attempt(1))
 def completion_with_backoff(**kwargs):
-    return openai.ChatCompletion.create(**kwargs)
-
+    client = OpenAI()  
+    completion = client.chat.completions.create(**kwargs)
+    return completion
 
 class LLM_Model(ABC):
     """
